@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+background: #D8BA22;
+color: #130C02;
+}
+
+#nav-bar {
+background-color: #e4cf64;
+}
+
+.nav-item .nav-link {
+color: #130C02 !important;
+transition: all .2s;
+}
+
+.nav-item > .nav-link:hover, .nav-item > .nav-link:focus {
+background-color: #fff;
+transform: translateY(-2px);
+}
+
+
+#features {
+background-color: #130C02;
+color: #fff;
+}
+
+input[type='submit'] {
+border-radius: 8px;
+display: block;
+padding: 12px 20px;
+cursor: pointer;
+}
+
+label, input {
+margin-bottom: 10px;
+}
+
+/* .card-body > *:not(:nth-child(6)) {
+border-bottom: 2px solid #130C02;
+}
+*/
+
+.card-1, .card-2, .card-3 {
+background-color: #130C02;
+color: #D8BA22;
+-webkit-box-shadow: 2px 2px 7px 3px #D8BA22; 
+box-shadow: 2px 2px 7px 3px #D8BA22;
+max-width: 400px;
+}
+
+.card-list-item {
+border-bottom: 1px groove #fff;
+width: 55%;
+margin: auto;
+}
+
+.price-card-button {
+width: 120px;
+border-radius: 25px;
+-webkit-box-shadow: 1px 1px 5px 2px #D8BA22; 
+box-shadow: 1px 1px 5px 2px #D8BA22;
+}
+
+footer {
+background-color: #e4cf64;
+}
+
+.footer-links {
+text-decoration: none;
+}
